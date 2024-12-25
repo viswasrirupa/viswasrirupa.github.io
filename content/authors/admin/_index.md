@@ -187,13 +187,7 @@ languages:
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 # ---
 
-## About Me
+# About Me
 
-Hi! I’m Rupa. 
-
-I design and optimize data-driven systems and algorithms that promote sustainability, equity, and efficiency, with a particular focus on transportation and mobility solutions. My work involves developing models for decarbonization, integrating AI and behavioral psychology, and designing network interventions to enhance travel behavior and transportation systems. Besides modeling and optimization, I also create simulations and visualizations to effectively communicate the impact and benefits of these systems.
-
-I am currently pursuing my PhD at Georgia Tech, working with Dr. Srinivas Peeta. My dissertation focuses on behavioral interventions and decarbonization strategies, supported by funding from the NSF and USDOT. I have presented my work at top conferences, including INFORMS and TRB.
-
-I have collaborated with interdisciplinary teams of engineers, psychologists, urban planners, and data scientists while working at the Curiosity Lab, Georgia Tech Research Institute, and various NSF-funded projects.
+Hi! I’m Rupa. I design and optimize data-driven systems and algorithms that promote sustainability, equity, and efficiency, with a particular focus on transportation and mobility solutions. My work involves developing models for decarbonization, integrating AI and behavioral psychology, and designing network interventions to enhance travel behavior and transportation systems. Besides modeling and optimization, I also create simulations and visualizations to effectively communicate the impact and benefits of these systems. I am currently pursuing my PhD at Georgia Tech, working with Dr. Srinivas Peeta. My dissertation focuses on behavioral interventions and decarbonization strategies, supported by funding from the NSF and USDOT. I have presented my work at top conferences, including INFORMS and TRB. I have collaborated with interdisciplinary teams of engineers, psychologists, urban planners, and data scientists while working at the Curiosity Lab, Georgia Tech Research Institute, and various NSF-funded projects.
 ---
