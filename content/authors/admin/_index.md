@@ -82,7 +82,7 @@ Research Experience:
     date_start: 2023-01-01
     date_end: present
     summary: |2-
-      Supervised by Dr. Omar I. Asensio:
+      - Supervised by Dr. Omar I. Asensio
       - Worked behavioral interventions 
   - position: Graduate Research Assistant
     company_name: Autonomous and Connected Transportation Lab
@@ -92,14 +92,14 @@ Research Experience:
     date_end: present
     summary: |
       Supervised by Dr. Srinivas Peeta
-      Worked on several funded national and government research projects
-      Assisted in writing DOT and NSF proposals
-      Research Projects:
-      - Promoting Sustainable Travel within Communities through Behavioral Interventions and Emerging Mobility Solutions: Stage 1 & Stage 2
-      - Fostering Smart and Sustainable Travel through Engaged Communities using Integrated Multi-dimensional Information-Based Solutions (NSF #2125390)
-      - Smartphone-based Incentive Framework for Dynamic Network-Level Traffic Congestion Management
-      - Driving Simulataro-Based Study of the Impacts of Various Roadway Design Modifications on the Curiosity Lab Test Track
-      - Using Driving Simulator Environment to Determine Interactions Between User Behavior and Infrastructure design under Autonomous Vehicles
+      - Worked on several funded national and government research projects
+      - Assisted in writing DOT and NSF proposals
+      - Research Projects:
+        - Promoting Sustainable Travel within Communities through Behavioral Interventions and Emerging Mobility Solutions: Stage 1 & Stage 2
+        - Fostering Smart and Sustainable Travel through Engaged Communities using Integrated Multi-dimensional Information-Based Solutions (NSF 2125390)
+        - Smartphone-based Incentive Framework for Dynamic Network-Level Traffic Congestion Management
+        - Driving Simulatar-Based Study of the Impacts of Various Roadway Design Modifications on the Curiosity Lab Test Track
+        - Using Driving Simulator Environment to Determine Interactions Between User Behavior and Infrastructure design under Autonomous Vehicles
   - position: Graduate Research Assistant
     company_name: Aerospace and Transportation Advanced Systems Lab
     company_url: ''
@@ -107,9 +107,9 @@ Research Experience:
     date_start: 2017-07-01
     date_end: 2020-12-31
     summary: |
-      Supervised by Dr. Alexander Samaylov
-      Research Project: 
-      - Fleet management of large-scale connected and autonomous vehicle in urban setting, (NSF #1647161)
+      - Supervised by Dr. Alexander Samaylov
+      - Research Project: 
+        - Fleet management of large-scale connected and autonomous vehicle in urban setting, (NSF 1647161)
 
 
 
@@ -196,3 +196,4 @@ I design and optimize data-driven systems and algorithms that promote sustainabi
 I am currently pursuing my PhD at Georgia Tech, working with Dr. Srinivas Peeta. My dissertation focuses on behavioral interventions and decarbonization strategies, supported by funding from the NSF and USDOT. I have presented my work at top conferences, including INFORMS and TRB.
 
 I have collaborated with interdisciplinary teams of engineers, psychologists, urban planners, and data scientists while working at the Curiosity Lab, Georgia Tech Research Institute, and various NSF-funded projects.
+---
