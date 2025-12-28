@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Rupa Anne</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" class="logo" /> <span>Rupa Anne</span></a>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="research.html">Research</a>
+      <a class="nav-link active" href="projects.html">Projects</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="section-head">
+        <h1>Projects</h1>
+        <p class="muted">A selection spanning apps, ML models, experiments, and optimization.</p>
+      </div>
+
+      <hr/>
+
+      <!-- Field Experiment with TranSACT -->
+      <div id="field-experiment" class="project">
+        <h2>Field Experiment to Test Behavioral Interventions (TranSACT)</h2>
+        <p class="muted">Advisor: Dr. Srinivas Peeta</p>
+        <p>Design and deployment of an at-scale randomized field experiment using the TranSACT mobile app in Peachtree Corners, GA.</p>
+        <ul class="bulleted">
+          <li>Planning a <strong>12-week</strong> deployment with <strong>300 participants</strong> in the City of Peachtree Corners, GA.</li>
+          <li>Testing combinations of <strong>real-time rewards</strong>, <strong>gamification</strong>, and <strong>health-based messaging</strong>.</li>
+          <li>Quantifying mode shifts via <strong>emissions avoided</strong>, <strong>calories burned</strong>, and <strong>air quality</strong> metrics.</li>
+        </ul>
+        <ul class="project-links">
+          <li><a href="#transact" rel="noopener">App details below</a></li>
+          <li><a href="research.html" rel="noopener">Related talks &amp; reports</a></li>
+        </ul>
+      </div>
+
+      <hr/>
+
+      <!-- Bi-Level Network Optimization -->
+      <div id="tndp" class="project">
+        <h2>Bi-Level Network Optimization for Behavioral Intervention Design</h2>
+        <p class="muted">Advisor: Dr. Srinivas Peeta</p>
+        <p>Optimization framework allocating monetary &amp; non-monetary interventions to improve system-level outcomes.</p>
+        <div class="project-media">
+          <!-- <img src="assets/thumbs/tndp.jpg" alt="Network optimization diagram" /> -->
+        </div>
+        <ul class="bulleted">
+          <li>Formulated a <strong>bi-level optimization</strong> problem responsive to traveler behavior.</li>
+          <li>Implemented <strong>Particle Swarm Optimization (PSO)</strong> for a <strong>12,124-variable</strong> search space.</li>
+          <li>Numerical experiments show <strong>~20% emissions reduction</strong> under optimal strategies.</li>
+        </ul>
+        <!-- <ul class="project-links">
+          <li><a href="#" target="_blank" rel="noopener">Technical summary</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Slides</a></li>
+        </ul> -->
+      </div>
+
+      <hr/>
+
+      <!-- SUMO + RL Dynamic Interventions -->
+      <div id="sumo-rl" class="project">
+        <h2>SUMO-Based Dynamic, Personalized Intervention Design</h2>
+        <p class="muted">Advisor: Dr. Srinivas Peeta</p>
+        <p>Reinforcement learning framework to deploy interventions in real time based on traffic and user states.</p>
+        <ul class="bulleted">
+          <li>Designed <strong>DDPG-based</strong> agent in <strong>SUMO</strong> to deliver interventions every <strong>15 minutes</strong>.</li>
+          <li>Integrated traffic flow, congestion, and user features for personalization.</li>
+          <li><strong>Python</strong>-based simulations across app penetration and congestion scenarios.</li>
+          <li>Observed <strong>~15% traffic efficiency</strong> gains and <strong>~25% CO<sub>2</sub></strong> reduction in numerical experiments.</li>
+        </ul>
+        <!-- <ul class="project-links">
+          <li><a href="#" target="_blank" rel="noopener">Experiment notes</a></li>
+        </ul> -->
+      </div>
+
+      <hr/>
+
+      <!-- TranSACT App -->
+      <div id="transact" class="project">
+        <h2>TranSACT Mobile App</h2>
+        <p>
+          TranSACT is a native mobile application developed as part of Georgia Tech’s
+          <a href="https://scc-it.ce.gatech.edu/" target="_blank" rel="noopener">
+            Smart &amp; Connected Communities (SCC-IT) project
+          </a>.
+          The app supports the
+          <a href="https://scc-it.ce.gatech.edu/communityapp" target="_blank" rel="noopener">
+            Peachtree Corners community travel study
+          </a>
+          by delivering real-time, personalized travel interventions and collecting high-resolution mobility data
+          from residents as they walk, bike, take transit, or drive.
+        </p>
+      
+        <!-- Horizontal scroll gallery -->
+        <div class="project-media media-scroll">
+          <img src="assets/transact/feature-graphic.png"
+               alt="TranSACT feature graphic with Georgia Tech and Peachtree Corners logos" />
+          <img src="assets/transact/icon.png"
+               alt="TranSACT app icon showing user and phone" />
+          <img src="assets/transact/screen-search.png"
+               alt="TranSACT screen showing destination search and autocomplete results" />
+          <img src="assets/transact/screen-navigation.png"
+               alt="TranSACT screen with turn-by-turn navigation" />
+          <img src="assets/transact/screen-options.png"
+               alt="TranSACT trip options screen comparing walk, bike, and transit" />
+          <img src="assets/transact/screen-transit-details.png"
+               alt="TranSACT screen with detailed transit itinerary" />
+          <img src="assets/transact/screen-trips.png"
+               alt="TranSACT recent trips and mode breakdown dashboard" />
+          <img src="assets/transact/screen-badges.png"
+               alt="TranSACT badges for walking, biking, and transit trips" />
+        </div>
+      
+        <ul class="bulleted">
+          <li>
+            <strong>Platforms:</strong>
+            Native <strong>iOS (Swift / SwiftUI)</strong> and
+            <strong>Android (Kotlin / Jetpack Compose)</strong> apps built with a shared navigation
+            and intervention design.
+          </li>
+          <li>
+            <strong>Mapping &amp; Routing:</strong>
+            Integrated <strong>HERE SDK</strong> for multimodal routing (walk, bike, transit, car),
+            address and POI search, and turn-by-turn navigation with live map tiles.
+          </li>
+          <li>
+            <strong>Backend &amp; Data:</strong>
+            <strong>Firebase</strong> (Firestore, Authentication, Cloud Functions, Cloud Messaging, Storage)
+            for user management, trip logging, and real-time intervention delivery,
+            with streaming exports to <strong>BigQuery</strong> and <strong>Python</strong> analytics pipelines.
+          </li>
+          <li>
+            <strong>Experiment Engine:</strong>
+            In-app randomized experiments that deliver health- and emissions-based informational messages,
+            badges, and leaderboards; treatments controlled remotely via configuration and experiment flags.
+          </li>
+          <li>
+            <strong>Telemetry:</strong>
+            Second-by-second GPS traces, mode-specific trips, and usage events linked with survey data
+            to support causal inference, behavioral modeling, and network-level optimization studies.
+          </li>
+          <li>
+            <strong>Deployment:</strong>
+            Field-tested with Peachtree Corners residents as part of the SCC-IT community study,
+            supporting large-scale, real-time behavioral experiments in a live suburban network.
+          </li>
+        </ul>
+      
+        <ul class="project-links">
+          <li>
+            <a href="https://scc-it.ce.gatech.edu/" target="_blank" rel="noopener">
+              SCC-IT Project Overview
+            </a>
+          </li>
+          <li>
+            <a href="https://scc-it.ce.gatech.edu/communityapp" target="_blank" rel="noopener">
+              Community App Study Details
+            </a>
+          </li>
+        </ul>
+      </div>      
+
+      <hr/>
+
+      <!-- Testing Behavioral Interventions Using Online Surveys -->
+      <div id="online-surveys" class="project">
+        <h2>Testing Behavioral Interventions Using Online Surveys</h2>
+        <p class="muted">Advisors: Dr. Omar I. Asensio, Dr. Srinivas Peeta</p>
+        <p>Designed and evaluated a large portfolio of non-priced intervention mechanisms to encourage shifts away from private-car use.</p>
+        <ul class="bulleted">
+          <li>Designed &amp; implemented <strong>50+ non-priced interventions</strong> (social norms messaging, environmental impact visualizations, etc.).</li>
+          <li>Ran <strong>RCTs on Qualtrics</strong> with <strong>10,000+ U.S. participants</strong> to test effectiveness.</li>
+          <li>Analyzed outcomes via <strong>multivariate regression</strong> and <strong>structural equation modeling</strong> to estimate behavioral shifts.</li>
+          <li>Conducted <strong>community workshops</strong> to validate results and refine mechanisms.</li>
+        </ul>
+        <ul class="project-links">
+          <li><a href="research.html#peer-reviewed-journal-articles" rel="noopener">Related publications</a></li>
+        </ul>
+      </div>
+
+      <hr/>
+
+      <!-- Travel Mode Classification -->
+      <div id="mode-classifier" class="project">
+        <h2>Travel Mode Classification Using Transfer Learning</h2>
+        <p>Deep learning pipeline for second-by-second GPS trajectories with transfer learning and temporal modeling.</p>
+        <div class="project-media">
+          <!-- <img src="assets/thumbs/tl-classifier.jpg" alt="Classifier visualization" /> -->
+        </div>
+        <ul class="bulleted">
+          <li>Leveraged pre-trained models (e.g., <strong>ResNet</strong>) for feature extraction; temporal modeling via <strong>LSTM</strong>.</li>
+          <li>Fine-tuned on <strong>500k labeled trajectories</strong> across walk, bike, and transit.</li>
+          <li>Achieved <strong>85%+</strong> classification accuracy with spatiotemporal features.</li>
+          <li>Automated pipeline in <strong>Python</strong> using <strong>TensorFlow</strong> and <strong>scikit-learn</strong> for near real-time detection.</li>
+        </ul>
+        <!-- <ul class="project-links">
+          <li><a href="#" target="_blank" rel="noopener">Paper / Preprint</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Code (private)</a></li>
+        </ul> -->
+      </div>
+
+      <hr/>
+
+      <!-- Driving Simulator AV Infrastructure -->
+      <div id="av-simulator" class="project">
+        <h2>Driving Simulator Analysis of AV Infrastructure Impacts</h2>
+        <p class="muted">Advisor: Dr. Srinivas Peeta</p>
+        <p>Human-in-the-loop experiments to understand how AV-specific infrastructure influences cognition and safety.</p>
+        <ul class="bulleted">
+          <li>High-fidelity simulator using the Curiosity Lab test track <strong>digital twin</strong>.</li>
+          <li>Collected <strong>eye-tracking</strong>, <strong>heart rate</strong>, and behavioral data to evaluate cognitive load and responses.</li>
+          <li>Analyzed human–AV interaction data in <strong>Python</strong>; informed infrastructure design recommendations.</li>
+        </ul>
+        <!-- <ul class="project-links">
+          <li><a href="#" target="_blank" rel="noopener">Study protocol</a></li>
+        </ul> -->
+      </div>
+
+      <hr/>
+
+      <!-- Fleet Management for AV Operations -->
+      <div id="av-fleet" class="project">
+        <h2>Fleet Management for Large-Scale Autonomous Vehicle Operations</h2>
+        <p class="muted">Advisor: Dr. Srinivas Peeta</p>
+        <p>Algorithms to improve AV fleet utilization under dynamic demand and congestion.</p>
+        <ul class="bulleted">
+          <li>Built <strong>SUMO</strong>-based simulations for dynamic routing and fleet management.</li>
+          <li>Developed real-time re-routing based on traffic and ride demand.</li>
+          <li>Validated on the University of Tennessee, Chattanooga test track.</li>
+          <li>Achieved <strong>~30% fleet utilization</strong> improvement and <strong>~20% reduction</strong> in idle time at peaks.</li>
+        </ul>
+        <!-- <ul class="project-links">
+          <li><a href="#" target="_blank" rel="noopener">Tech report</a></li>
+        </ul> -->
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    © <span id="year"></span> Rupa Anne
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
