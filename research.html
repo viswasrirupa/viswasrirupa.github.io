@@ -7,124 +7,40 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="favicon.ico" />
 </head>
-<body>
+<body data-page="research">
   <header class="site-header">
-    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" class="logo" /> <span>Rupa Anne</span></a>
-    <nav class="nav">
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link active" href="research.html">Research</a>
+    <a class="brand" href="index.html">Rupa Anne</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link" href="index.html">About</a>
+      <a class="nav-link" href="research.html">Research</a>
       <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link nav-cta" href="assets/Rupa_Anne_Resume.pdf" target="_blank" rel="noopener">Resume</a>
     </nav>
   </header>
 
-  <main class="page">
-    <section class="section">
-      <div class="section-head">
-        <h1>Research & Publications</h1>
-        <p class="muted">Peer-reviewed articles, conference papers, and technical reports.</p>
-      </div>
+  <main class="container">
+    <section class="page-head">
+      <h1>Research</h1>
+      <p class="muted">Peer-reviewed articles, award-winning conference papers, and funded technical reports. Three additional first-author and four co-authored journal manuscripts are in preparation or under review.</p>
+    </section>
 
-      <!-- Peer-reviewed Journal Articles -->
+    <section class="section" id="journal">
       <h2>Peer-Reviewed Journal Articles</h2>
-      <ul class="bulleted">
-        <li>
-          <strong>Anne, V. S. R.</strong>, Liu, Y., Kibria, G., Peeta, S., &amp; Asensio, O. I. (2025).
-          <strong>Promoting Sustainable Travel Modes through Health and Active Lifestyle Messaging</strong>.
-          <em>PNAS Nexus</em>. <span class="muted">(Submitted; under review)</span>
-        </li>
-        <li>
-          <strong>Anne, V. S. R.</strong>, Liu, Y., Kibria, M.G., Peeta, S., Asensio, O.I. (2025).
-          <strong>Replication Data for: “Promoting Sustainable Travel Modes Through Health and Active Lifestyle Messaging”</strong>.
-          <a href="https://doi.org/10.7910/DVN/Y8HFXW" target="_blank" rel="noopener">https://doi.org/10.7910/DVN/Y8HFXW</a>
-        </li>
-        <li>
-          Anand, P. A., Atmakuri, P., <strong>Anne, V. S. R.</strong>, Asaithambi, G., Srinivasan, K. K., Sivanandan, R., &amp; Chilukuri, B. R. (2019).
-          <strong>Calibration of vehicle-following model parameters using mixed traffic trajectory data</strong>.
-          <em>Transportation in Developing Economies</em>, 5, p. 18.
-        </li>
-      </ul>
+      <div class="entry-list" id="journal-list"></div>
+    </section>
 
-      <!-- Conference Papers & Presentations -->
-      <h2>Conference Papers &amp; Presentations</h2>
-      <ul class="bulleted">
-        <li>
-          Kibria, G., <strong>Anne, V. S. R.</strong>, Xu, Y., Eluru, N., &amp; Peeta, S. (2026).
-          “<strong>Scalable Decomposition Approach for Joint Optimization of Transit Stops and Routes to Enhance Accessibility to Points of Interest</strong>,”
-          <em>105th Annual Meeting of the Transportation Research Board</em>, Washington, D.C., January 2026.
-        </li>
-        <li>
-          Kibria, G., Xu, Y., <strong>Anne, V. S. R.</strong>, Eluru, N., &amp; Peeta, S. (2025).
-          “<strong>Joint Optimization of Transit Stops and Routes to Improve Access to Essential Community Destinations</strong>,”
-          <em>The 33rd ACM SIGSPATIAL</em>, Minneapolis, MN, November 2025. Winner: Best Paper Award.
-        </li>
-        <li>
-          <strong>Anne, V. S. R.</strong>, Chang, Y., &amp; Peeta, S. (2025).
-          <strong>Reinforcement Learning Based Framework to Design Behavioral Interventions to Improve Sustainability and Public Health</strong>.
-          Accepted at the <em>2025 INFORMS Annual Meeting</em>, Atlanta, GA, USA.
-        </li>
-        <li>
-          <strong>Anne, V. S. R.</strong>, Liu, Y., Kibria, G., Asensio, O., &amp; Peeta, S. (2025).
-          “<strong>Promoting Sustainable Travel Modes through Gamified Health and Environmental Information</strong>,”
-          <em>104th Annual Meeting of the Transportation Research Board</em>, Washington, D.C., January 2025.
-          <span class="muted">Winner: TRB AEP35 Best Paper Award</span>.
-        </li>
-        <li>
-          <strong>Anne, V. S. R.</strong> &amp; Peeta, S. (2024).
-          <strong>Promoting Sustainable Mobility: Behavioral Interventions for Transportation Sustainability and Equity</strong>.
-          Accepted at the <em>2024 INFORMS Annual Meeting</em>, Seattle, WA, USA.
-        </li>
-        <li>
-          Xu, Y., Kibria, G., Wang, C., Tenenboim, E., <strong>Anne, V. S. R.</strong>, Chen, Z., &amp; Peeta, S. (2023, December).
-          <strong>Dynamic Visualization Platform for Travel-Related Data Integration to Support Sustainability-Based Decision-Making for Smart Cities</strong>.
-          In <em>2023 IEEE 20th International Conference on Smart Communities: Improving Quality of Life using AI, Robotics and IoT (HONET)</em> (pp. 1–6). IEEE.
-        </li>
-        <li>
-          Xu, Y., Kibria, G., Tenenboim, E., Chen, Y., <strong>Anne, V. S. R.</strong>, Wang, C., Chen, Z., &amp; Peeta, S. (2023).
-          “<strong>Dynamic Visualization Platform for Travel-Related Data Integration to Support Sustainability-Based Decision-Making for Smart Cities</strong>,”
-          <em>ASCE International Conference on Transportation and Development</em>, Austin, TX, June 2023.
-        </li>
-        <li>
-          Thompson, R., Stovall, J., Velasquez, D., <strong>Anne, V. S. R.</strong>, Samoylov, A.V., &amp; Sartipi, M. (2018, December).
-          <strong>All-in-One Urban Mobility Mapping Application with Optional Routing Capabilities</strong>.
-          In <em>2018 IEEE International Conference on Big Data (Big Data)</em> (pp. 1127–1133). IEEE.
-        </li>
-      </ul>
+    <section class="section" id="conference">
+      <h2>Conference Papers & Presentations</h2>
+      <div class="entry-list" id="conference-list"></div>
+    </section>
 
-      <!-- Technical Reports -->
-      <h2>Technical Reports</h2>
-      <ul class="bulleted">
-        <li>
-          <strong>Anne, V. S. R.</strong>, Kibria, G., &amp; Peeta, S. (2025).
-          “<strong>Promoting Sustainable Travel within Communities through Behavioral Interventions and Emerging Mobility Solutions</strong>,”
-          Final Project Report, Project 22, National Center for Understanding Future Travel Behavior and Demand.
-        </li>
-        <li>
-          Du, L., Peeta, S., Ning, Y., & <strong>Anne, V. S. R.</strong> (2022). 
-          <strong>Smartphone Based Incentive Framework for Dynamic Network Level Traffic Congestion Management</strong> (No. STRIDE Project H3). 
-          Southeastern Transportation Research, Innovation, Development and Education Center (STRIDE).
-        </li>
-        <li>
-          <strong>Anne, V. S. R.</strong>, Tenenboim, E. and Peeta, S., 2022. 
-          <strong>Using Driving Simulator Environment to Determine Interactions Between User Behavior and Infrastructure Design Under Autonomous Vehicles</strong> (No. CCAT Report# 39). 
-          University of Michigan. Center for Connected and Automated Transportation. 
-          <a href="https://doi.org/10.5703/1288284317647" target="_blank" rel="noopener">https://doi.org/10.5703/1288284317647</a>
-        </li>
-      </ul>
-
-      <!-- (Optional) Working papers can be added later if desired -->
-      <!--
-      <h2>In Preparation / Working Papers</h2>
-      <ul class="bulleted">
-        <li><strong>Network-Level Behavioral Intervention Design</strong>: bi-level optimization of incentives over multimodal networks.</li>
-        <li><strong>Mode Classification via Transfer Learning</strong> on second-by-second GPS data.</li>
-      </ul>
-      -->
+    <section class="section" id="report">
+      <h2>Technical Reports & Data</h2>
+      <div class="entry-list" id="report-list"></div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    © <span id="year"></span> Rupa Anne
-  </footer>
+  <footer class="site-footer">© <span id="year"></span> Rupa Anne · <a href="mailto:viswasrirupa@gmail.com">viswasrirupa@gmail.com</a></footer>
   <script src="script.js"></script>
 </body>
 </html>

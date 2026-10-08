@@ -1,0 +1,686 @@
+{
+  "profile": {
+    "name": "Rupa Anne",
+    "title": "Ph.D. Candidate, Transportation Engineering · Georgia Tech",
+    "email": "viswasrirupa@gmail.com",
+    "availability": "Graduating Dec 2026 · Open to Applied Scientist, Research Scientist, ML Engineer & OR Scientist roles",
+    "headline": "I build ML, optimization, and experimentation systems that change how people move — and prove that they work.",
+    "hero": [
+      "I'm a Ph.D. candidate at **Georgia Tech** (minor in Technology Commercialization) with **8 years of research experience** on how people make travel decisions and interact with emerging mobility systems. I work end to end: from raw sensor data and modeling to deployed software and rigorous causal evaluation.",
+      "Highlights: I designed and shipped **GT TranSACT**, a native **iOS and Android app with a Firebase backend** used by ~150 participants in a live field study; built **Transformer-based travel-mode detection** from second-by-second GPS; ran randomized experiments with **10,000+ U.S. participants**; and formulated **bi-level network optimization** that achieves a **~20% reduction in network emissions**.",
+      "I also build with **PyTorch, HuggingFace, LoRA, and RAG**, train **reinforcement learning** agents in SUMO, and have run human-factors studies on high-fidelity **autonomous vehicle driving simulators** with EEG, ECG, and eye tracking. My work has earned **two 2025 Best Paper Awards** and **$300K in USDOT funding** through proposals I developed, and I received **GT Create-X** and **Fusen Fund** support to commercialize carbon-emission tracking technology."
+    ],
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:viswasrirupa@gmail.com"
+      },
+      {
+        "label": "Resume",
+        "url": "assets/Rupa_Anne_Resume.pdf"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/viswasrirupaanne"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=IGZ0QU8AAAAJ&hl=en"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0009-0007-2493-8705"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Graduate Research Assistant",
+      "place": "Autonomous & Connected Transportation Lab, Georgia Tech",
+      "advisor": "Dr. Srinivas Peeta",
+      "when": "Jan 2020 — Present",
+      "items": [
+        "**Shipped a production mobile sensing platform:** designed and built GT TranSACT for iOS (SwiftUI) and Android (Jetpack Compose) with passive GPS sensing, trip collection, and personalized messaging, on a Firebase backend (Auth, Cloud Storage, analytics); deployed to **~150 participants**",
+        "**Ran a 12-week longitudinal field experiment** in Metro Atlanta to promote walking and transit, recruiting **1,100+ participants** with IRB-compliant data ingestion and engagement pipelines",
+        "**Built ML pipelines for human mobility:** trip segmentation, Transformer-based travel-mode detection (GeoLife + local ground truth), and automated data-quality checks on second-by-second GPS",
+        "**Solved large-scale network optimization:** formulated a bi-level network design problem with stochastic user equilibrium, developed an adjoint KKT sensitivity method for high-dimensional gradients, benchmarked against PSO, and achieved **~20% emissions reduction**",
+        "**Trained RL agents for personalized incentives:** DDPG coupled with the SUMO microscopic traffic simulator, with a multi-objective reward balancing travel time and incentive spend",
+        "**Led human-factors research on autonomous vehicles:** built a 1.6-mile digital twin of the Curiosity Lab AV test track; collected driving, eye-tracking, EEG, and ECG data from 57 participants; findings informed AV infrastructure deployed on the track",
+        "**Won funding:** developed and secured **$300K in USDOT funding** (3 proposals, 3 consecutive years) and contributed to a **$2.5M NSF Smart & Connected Communities** grant with the City of Peachtree Corners"
+      ]
+    },
+    {
+      "role": "Graduate Research Assistant",
+      "place": "Data Science & Policy Lab, Georgia Tech",
+      "advisor": "Dr. Omar I. Asensio",
+      "when": "Jan 2023 — Present",
+      "items": [
+        "**Designed 50+ behavioral interventions** — health, environmental, and social-norm messaging plus gamified daily travel choices — co-refined through community workshops and stakeholder engagement",
+        "**Ran large-scale randomized experiments with 10,000+ U.S. car users** to test which interventions shift travel choices",
+        "**Estimated treatment effects and heterogeneity** across groups using regression, discrete-choice, and behavioral models",
+        "Lead-authored the resulting paper, now in **revise-and-resubmit at *Nature Sustainability***; companion work won the **TRB AEP35 Best Paper Award**"
+      ]
+    },
+    {
+      "role": "Graduate Research Assistant & Tech Intern",
+      "place": "Aerospace Transportation and Advanced Systems Lab, Georgia Tech Research Institute",
+      "when": "Aug 2017 — Dec 2019",
+      "items": [
+        "**Co-developed a V2X mobility system** integrating roadside sensing, vehicle data, traffic simulation, and real-time routing",
+        "**Fused computer-vision detections, GPS, and infrastructure sensing** to localize vehicles, cyclists, and pedestrians",
+        "**Built predictive rerouting** that used simulated future traffic conditions rather than current speeds alone",
+        "Supported a real-time mobility app with **3 m localization accuracy** and **250 ms** mobile GPS updates"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "health-active-lifestyle",
+      "type": "journal",
+      "featured": true,
+      "year": "2025",
+      "title": "Promoting Sustainable Travel Decisions through Health and Active Lifestyle Messaging",
+      "authors": "Anne, V. S. R., Liu, Y., Kibria, M. G., Peeta, S., & Asensio, O. I.",
+      "venue": "Nature Sustainability",
+      "status": "Revise and resubmit",
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://doi.org/10.21203/rs.3.rs-8407901/v1"
+        },
+        {
+          "label": "Replication Data",
+          "url": "https://doi.org/10.7910/DVN/Y8HFXW"
+        }
+      ],
+      "abstract": "This study evaluates whether health and active lifestyle messages can encourage shifts away from private vehicle use toward walking, biking, and public transit. Using randomized experiments with 10,000+ U.S. car users, it estimates the effectiveness of informational interventions and examines heterogeneous responses across traveler groups."
+    },
+    {
+      "id": "vehicle-following",
+      "type": "journal",
+      "year": "2019",
+      "title": "Calibration of vehicle-following model parameters using mixed traffic trajectory data",
+      "authors": "Anand, P. A., Atmakuri, P., Anne, V. S. R., Asaithambi, G., Srinivasan, K. K., Sivanandan, R., & Chilukuri, B. R.",
+      "venue": "Transportation in Developing Economies, 5, 18",
+      "abstract": "This paper calibrates vehicle-following model parameters using trajectory data from mixed traffic conditions.",
+      "links": [
+        {
+          "label": "Paper DOI",
+          "url": "https://doi.org/10.1007/s40890-019-0086-4"
+        }
+      ]
+    },
+    {
+      "id": "trb-gamification",
+      "type": "conference",
+      "featured": true,
+      "year": "2025",
+      "title": "Effectiveness of Health and Environmental Information Provision in Promoting Sustainable Travel Modes",
+      "authors": "Anne, V. S. R., Kibria, G., Liu, Y., Asensio, O. I., & Peeta, S.",
+      "venue": "Transportation Research Board 104th Annual Meeting, Washington, D.C. (TRBAM-25-02656)",
+      "status": "Best Paper Award, TRB AEP35",
+      "abstract": "This study examines whether health and environmental information, including gamified feedback such as badges and leaderboards, can increase traveler engagement with sustainable modes. Results from a large-scale randomized experiment suggest that making these benefits personally salient increases stated willingness to choose walking, biking, and transit."
+    },
+    {
+      "id": "sigspatial-transit",
+      "type": "conference",
+      "year": "2025",
+      "title": "Joint Optimization of Transit Stops and Routes to Improve Access to Essential Community Destinations",
+      "authors": "Kibria, G., Xu, Y., Anne, V. S. R., Eluru, N., & Peeta, S.",
+      "venue": "Proceedings of the 1st ACM SIGSPATIAL International Workshop on Spatial Intelligence for Smart and Connected Communities (SpatialConnect), pp. 15–24",
+      "status": "SpatialConnect Best Paper Award",
+      "abstract": "This work develops a scalable optimization framework for jointly designing transit stops and routes to improve accessibility to essential destinations.",
+      "featured": true,
+      "links": [
+        {
+          "label": "Paper DOI",
+          "url": "https://doi.org/10.1145/3764924.3770895"
+        }
+      ]
+    },
+    {
+      "id": "informs-rl",
+      "type": "conference",
+      "year": "2025",
+      "title": "Reinforcement Learning Based Framework to Design Behavioral Interventions to Improve Sustainability and Public Health",
+      "authors": "Anne, V. S. R., Chang, Y., & Peeta, S.",
+      "venue": "2025 INFORMS Annual Meeting, Atlanta, GA",
+      "abstract": "A reinforcement learning framework for dynamically designing behavioral interventions under evolving traffic and traveler states.",
+      "featured": true
+    },
+    {
+      "id": "trb-2026-transit",
+      "type": "conference",
+      "year": "2026",
+      "title": "Scalable Decomposition Approach for Joint Optimization of Transit Stops and Routes to Enhance Accessibility to Points of Interest",
+      "authors": "Kibria, G., Anne, V. S. R., Xu, Y., Eluru, N., & Peeta, S.",
+      "venue": "105th Annual Meeting of the Transportation Research Board, Washington, D.C."
+    },
+    {
+      "id": "informs-2024",
+      "type": "conference",
+      "year": "2024",
+      "title": "Promoting Sustainable Mobility: Behavioral Interventions for Transportation Sustainability and Equity",
+      "authors": "Anne, V. S. R. & Peeta, S.",
+      "venue": "2024 INFORMS Annual Meeting, Seattle, WA"
+    },
+    {
+      "id": "ieee-honet-2023",
+      "type": "conference",
+      "year": "2023",
+      "title": "Dynamic Visualization Platform for Travel-Related Data Integration to Support Sustainability-Based Decision-Making for Smart Cities",
+      "authors": "Xu, Y., Kibria, G., Wang, C., Tenenboim, E., Anne, V. S. R., Chen, Z., & Peeta, S.",
+      "venue": "2023 IEEE 20th International Conference on Smart Communities (HONET), pp. 1–6. IEEE"
+    },
+    {
+      "id": "asce-2023",
+      "type": "conference",
+      "year": "2023",
+      "title": "Dynamic Visualization Platform for Travel-Related Data Integration to Support Sustainability-Based Decision-Making for Smart Cities",
+      "authors": "Xu, Y., Kibria, G., Tenenboim, E., Chen, Y., Anne, V. S. R., Wang, C., Chen, Z., & Peeta, S.",
+      "venue": "ASCE International Conference on Transportation and Development, Austin, TX"
+    },
+    {
+      "id": "ieee-bigdata-2018",
+      "type": "conference",
+      "year": "2018",
+      "title": "All-in-One Urban Mobility Mapping Application with Optional Routing Capabilities",
+      "authors": "Thompson, R., Stovall, J., Velasquez, D., Anne, V. S. R., Samoylov, A. V., & Sartipi, M.",
+      "venue": "2018 IEEE International Conference on Big Data, pp. 1127–1133. IEEE"
+    },
+    {
+      "id": "future-travel-report",
+      "type": "report",
+      "year": "2025",
+      "title": "Promoting Sustainable Travel within Communities through Behavioral Interventions and Emerging Mobility Solutions",
+      "authors": "Anne, V. S. R., Kibria, G., & Peeta, S.",
+      "venue": "Final Report, U.S. Department of Transportation, Grant Nos. 69A3552344815 and 69A3552348320",
+      "abstract": "Final project report on behavioral interventions and emerging mobility solutions for sustainable community travel.",
+      "featured": false
+    },
+    {
+      "id": "ccat-2022",
+      "type": "report",
+      "year": "2022",
+      "title": "Using Driving Simulator Environment to Determine Interactions Between User Behavior and Infrastructure Design Under Autonomous Vehicles",
+      "authors": "Anne, V. S. R., Tenenboim, E., & Peeta, S.",
+      "venue": "CCAT Report #39, University of Michigan, Center for Connected and Automated Transportation",
+      "links": [
+        {
+          "label": "Report DOI",
+          "url": "https://doi.org/10.5703/1288284317647"
+        }
+      ]
+    },
+    {
+      "id": "stride-2022",
+      "type": "report",
+      "year": "2022",
+      "title": "Smartphone Based Incentive Framework for Dynamic Network Level Traffic Congestion Management",
+      "authors": "Du, L., Peeta, S., Ning, Y., & Anne, V. S. R.",
+      "venue": "STRIDE Project H3, Southeastern Transportation Research, Innovation, Development and Education Center (STRIDE)"
+    },
+    {
+      "id": "replication-data",
+      "type": "report",
+      "year": "2025",
+      "title": "Replication Data for: Promoting Sustainable Travel Modes Through Health and Active Lifestyle Messaging",
+      "authors": "Anne, V. S. R., Liu, Y., Kibria, M. G., Peeta, S., & Asensio, O. I.",
+      "venue": "Harvard Dataverse",
+      "links": [
+        {
+          "label": "Dataset DOI",
+          "url": "https://doi.org/10.7910/DVN/Y8HFXW"
+        }
+      ],
+      "abstract": "Replication data for the health and active lifestyle messaging study."
+    }
+  ],
+  "projects": [
+    {
+      "id": "transact",
+      "featured": true,
+      "title": "GT TranSACT — iOS & Android Mobile Sensing Platform",
+      "summary": "Native iOS and Android research app with a Firebase backend for passive GPS sensing, trip collection, and personalized behavioral interventions.",
+      "tags": [
+        "SwiftUI",
+        "Jetpack Compose",
+        "Firebase",
+        "HERE SDK",
+        "Mobile sensing"
+      ],
+      "items": [
+        "Native iOS (SwiftUI) and Android (Jetpack Compose) apps with shared navigation and intervention design.",
+        "Passive GPS sensing, trip collection, personalized messaging, and engagement features (badges, trip history).",
+        "Backend architecture on **Firebase** Authentication, Cloud Storage, and analytics, plus remote experiment configuration.",
+        "HERE SDK integration for multimodal routing, address search, and turn-by-turn navigation.",
+        "IRB-compliant data ingestion pipelines linking second-by-second GPS and usage events with survey data for causal analysis.",
+        "Built with an undergraduate team I mentored through the VIP ACT Lab course."
+      ],
+      "gallery": [
+        {
+          "src": "assets/transact/feature-graphic.png",
+          "alt": "TranSACT feature graphic"
+        },
+        {
+          "src": "assets/transact/icon.png",
+          "alt": "TranSACT app icon"
+        },
+        {
+          "src": "assets/transact/screen-search.png",
+          "alt": "Destination search screen"
+        },
+        {
+          "src": "assets/transact/screen-navigation.png",
+          "alt": "Navigation screen"
+        },
+        {
+          "src": "assets/transact/screen-badges.png",
+          "alt": "Gamification badges screen"
+        },
+        {
+          "src": "assets/transact/screen-options.png",
+          "alt": "Trip options screen"
+        },
+        {
+          "src": "assets/transact/screen-transit-details.png",
+          "alt": "Transit itinerary screen"
+        },
+        {
+          "src": "assets/transact/screen-trips.png",
+          "alt": "Trip history screen"
+        }
+      ],
+      "links": [
+        {
+          "label": "SCC-IT Project Overview",
+          "url": "https://scc-it.ce.gatech.edu/"
+        },
+        {
+          "label": "Community App Study Details",
+          "url": "https://scc-it.ce.gatech.edu/communityapp"
+        }
+      ],
+      "details": "TranSACT is the platform layer connecting app-based behavioral interventions, real-time route choices, Firebase experiment controls, and high-resolution mobility data.",
+      "impact": "Designed, built, and deployed end to end · ~150 active participants in a live field study"
+    },
+    {
+      "id": "mode-classifier",
+      "featured": true,
+      "title": "Transformer-Based Travel Mode Detection from GPS",
+      "summary": "ML pipeline that segments raw smartphone GPS traces into trips and infers travel mode and mobility patterns.",
+      "tags": [
+        "Transformers",
+        "Transfer learning",
+        "Geospatial ML",
+        "Python"
+      ],
+      "items": [
+        "Transformer-based architecture trained on the **GeoLife** dataset and adapted with **local ground-truth** trajectories.",
+        "Pipelines for trip segmentation, travel-mode inference, and mobility pattern recognition.",
+        "Automated quality checks that flag missing coverage, anomalous coordinates, and implausible trajectories.",
+        "Feeds directly into the field experiment's measurement of intervention effects."
+      ],
+      "details": "This project automates mobility analytics by classifying travel mode from high-resolution smartphone traces, replacing manual trip labeling.",
+      "impact": "Transfer from GeoLife to locally labeled trajectories · automated data-quality checks"
+    },
+    {
+      "id": "tndp",
+      "featured": true,
+      "title": "Bi-Level Network Optimization for Intervention Design",
+      "advisor": "Dr. Srinivas Peeta",
+      "summary": "Large-scale optimization that allocates monetary and non-monetary interventions across a transportation network while accounting for how travelers respond.",
+      "tags": [
+        "Bi-level optimization",
+        "Stochastic user equilibrium",
+        "KKT sensitivity",
+        "PSO"
+      ],
+      "items": [
+        "Formulated a **bi-level network design problem** with stochastic user equilibrium and travel choice.",
+        "Modeled heterogeneous user behavior under monetary and non-monetary decision variables.",
+        "Developed an **adjoint KKT sensitivity method** for high-dimensional gradient computation.",
+        "Benchmarked against **Particle Swarm Optimization** over a 12,124-variable search space.",
+        "Incorporated health and environmental externalities of travel at network scale; optimal strategies cut emissions by ~20%."
+      ],
+      "details": "This project streamlines intervention allocation as a network-level design problem, linking behavioral response to emissions and congestion outcomes.",
+      "impact": "~20% network-wide emissions reduction · adjoint KKT gradients for a 12,124-variable problem"
+    },
+    {
+      "id": "sumo-rl",
+      "featured": true,
+      "title": "Reinforcement Learning for Personalized, Dynamic Incentives",
+      "advisor": "Dr. Srinivas Peeta",
+      "summary": "DDPG agent coupled with the SUMO microscopic traffic simulator that decides when and how much to incentivize travelers in real time.",
+      "tags": [
+        "Reinforcement learning",
+        "DDPG",
+        "SUMO",
+        "Simulation"
+      ],
+      "items": [
+        "Built a simulator-based **DDPG** training environment coupling neural policies with SUMO.",
+        "Designed a **multi-objective reward** balancing network-wide travel time against incentive spend.",
+        "Modeled high-dimensional continuous states (link travel times) and actions (incentives), updated every 15 minutes.",
+        "Simulated closed-loop interactions among RL actions, route choice, vehicle trajectories, and congestion."
+      ],
+      "details": "This project treats intervention timing and intensity as a dynamic control problem under network uncertainty.",
+      "impact": "~15% traffic efficiency gain and ~25% CO₂ reduction in numerical experiments"
+    },
+    {
+      "id": "field-experiment",
+      "featured": true,
+      "title": "12-Week GPS-Tracked Field Experiment (TranSACT)",
+      "advisor": "Dr. Srinivas Peeta",
+      "summary": "Longitudinal randomized field experiment in Metro Atlanta testing whether app-delivered interventions shift real-world travel toward walking and transit.",
+      "tags": [
+        "Field experiment",
+        "RCT",
+        "Causal inference",
+        "Mobile sensing"
+      ],
+      "items": [
+        "Designed and deployed a **12-week longitudinal experiment** to promote walking and bus transit.",
+        "Recruited **1,100+ participants** across Metro Atlanta.",
+        "Testing real-time rewards, gamification, and health-based messaging delivered through TranSACT.",
+        "Processing second-by-second GPS and trip-level data to characterize mobility and intervention exposure.",
+        "Quantifying mode shifts via emissions avoided, calories burned, and air-quality metrics."
+      ],
+      "links": [
+        {
+          "label": "App details",
+          "url": "projects.html#transact"
+        },
+        {
+          "label": "Related research",
+          "url": "research.html"
+        }
+      ],
+      "details": "This project connects field deployment, app telemetry, and causal inference to study whether behavioral interventions can shift real-world travel behavior.",
+      "impact": "1,100+ participants recruited · ~150 engaged on the platform · second-by-second GPS"
+    },
+    {
+      "id": "driving-simulator",
+      "featured": true,
+      "title": "AV Driving Simulator & Digital Twin — Human Factors",
+      "advisor": "Dr. Srinivas Peeta",
+      "summary": "High-fidelity experiments on how humans respond to connected and autonomous vehicles and their infrastructure.",
+      "impact": "57 participants · EEG, ECG, eye tracking · findings informed infrastructure deployed on a real AV test track",
+      "tags": [
+        "Human factors",
+        "Digital twin",
+        "Driving simulator",
+        "Physiological sensing"
+      ],
+      "items": [
+        "Built a **1.6-mile digital twin** of the Peachtree Corners Curiosity Lab autonomous vehicle test track.",
+        "Configured the RTI full-cab driving simulator and retrofitted a traffic simulator to build realistic scenarios.",
+        "Collected and processed driving behavior, **eye-tracking, EEG, and ECG** data from 57 participants.",
+        "Quantified relationships among driver attention, cognition, roadway design, and safety responses.",
+        "Findings **informed the AV infrastructure deployed** at the test track."
+      ],
+      "links": [
+        {
+          "label": "Report DOI",
+          "url": "https://doi.org/10.5703/1288284317647"
+        }
+      ]
+    },
+    {
+      "id": "online-surveys",
+      "title": "Large-Scale Online Randomized Experiments",
+      "advisor": "Dr. Omar I. Asensio and Dr. Srinivas Peeta",
+      "summary": "Survey-based RCTs testing which messages and engagement mechanisms actually shift travel choices.",
+      "tags": [
+        "RCT",
+        "Causal inference",
+        "Discrete choice",
+        "Qualtrics"
+      ],
+      "items": [
+        "Designed **50+ health, environmental, and social-norm messages** and gamified daily travel choices.",
+        "Co-designed and refined interventions through community workshops and stakeholder engagement.",
+        "Ran randomized experiments with **10,000+ U.S. car users**.",
+        "Estimated treatment effects and heterogeneity with regression, discrete-choice, and behavioral models."
+      ],
+      "links": [
+        {
+          "label": "Related publications",
+          "url": "research.html#journal"
+        }
+      ],
+      "details": "This research tests which message frames, benefit types, and engagement mechanisms are most effective for shifting stated travel choices.",
+      "impact": "50+ interventions · 10,000+ U.S. car users · Nature Sustainability R&R and TRB Best Paper",
+      "featured": false
+    },
+    {
+      "id": "carbonplay",
+      "title": "CarbonPlay — Carbon-Credit Tracking Venture",
+      "summary": "A platform for tracking emissions directly from sensors and issuing transparent digital carbon credits.",
+      "impact": "Funded by GT Create-X and Fusen Fund",
+      "tags": [
+        "Entrepreneurship",
+        "Product",
+        "Sustainability tech"
+      ],
+      "items": [
+        "Commercializing carbon-emission tracking technology with funding from **GT Create-X** and **Fusen Fund**.",
+        "Product concept: real-time project metrics, direct sensor tracking, digital credit issuance, and a credit marketplace.",
+        "Complements my minor in Technology Commercialization."
+      ],
+      "gallery": [
+        {
+          "src": "assets/carbonplay.png",
+          "alt": "CarbonPlay product overview showing project dashboard and marketplace"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "v2x",
+      "title": "V2X Real-Time Mobility System (GTRI)",
+      "summary": "Connected-vehicle system fusing roadside sensing, vehicle data, and traffic simulation for real-time routing.",
+      "impact": "3 m localization accuracy · 250 ms mobile GPS updates",
+      "tags": [
+        "V2X",
+        "Sensor fusion",
+        "Computer vision",
+        "Real-time routing"
+      ],
+      "items": [
+        "Co-developed a V2X mobility system integrating roadside sensing, vehicle data, traffic simulation, and routing.",
+        "Integrated computer-vision detections, GPS, and infrastructure sensing to localize vehicles, cyclists, and pedestrians.",
+        "Developed predictive rerouting using simulated future traffic conditions rather than current speeds alone."
+      ],
+      "featured": false
+    }
+  ],
+  "awards": [
+    {
+      "title": "TRB AEP35 Best Paper Award — 104th Annual Meeting of the Transportation Research Board",
+      "image": "assets/awards/pin-intern-award-2025.jpg",
+      "imageAlt": "TRB Best Paper Award recognition, 2025",
+      "description": [
+        "Our paper **\"Effectiveness of Health and Environmental Information Provision in Promoting Sustainable Travel Modes\"** received the Best Paper Award from the AEP35 committee at the 104th Annual Meeting of the Transportation Research Board, Washington, D.C., January 2025.",
+        "The study examines whether health and environmental information, including gamified feedback, can increase traveler engagement with walking, biking, and public transit. Results from a large-scale randomized experiment show meaningful shifts in stated mode preferences when benefits are made personally salient."
+      ]
+    },
+    {
+      "title": "SpatialConnect 2025 Best Paper Award — ACM SIGSPATIAL Workshop",
+      "image": "assets/awards/spatialconnect-best-paper-2025.png",
+      "imageAlt": "Research team receiving the SpatialConnect Best Paper Award at ACM SIGSPATIAL 2025",
+      "description": [
+        "Our collaborative research, *\"Joint Optimization of Transit Stops and Routes to Improve Access to Essential Community Destinations,\"* was awarded Best Paper at the SpatialConnect 2025 Workshop on Spatial Intelligence for Smart and Connected Communities, co-located with ACM SIGSPATIAL.",
+        "This work introduces a location-aware optimization framework that jointly determines bus stop placement and route design to maximize access to key destinations—grocery stores, medical facilities, and employment hubs. Applied to the City of Peachtree Corners, Georgia, the model demonstrates how data-driven transit design can strengthen community-scale accessibility and equity in suburban contexts.",
+        "This recognition reflects the broader goal of my work: building optimization and decision-support tools that turn mobility data into better, more equitable planning decisions."
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "value": "10,000+",
+      "label": "U.S. participants in randomized experiments I designed and ran"
+    },
+    {
+      "value": "1,100+",
+      "label": "Recruited for a 12-week GPS-tracked field experiment"
+    },
+    {
+      "value": "~150",
+      "label": "Active users on the iOS/Android app I built and deployed"
+    },
+    {
+      "value": "~20%",
+      "label": "Network emissions reduction from my bi-level optimization"
+    },
+    {
+      "value": "$300K",
+      "label": "USDOT funding secured via 3 proposals in 3 consecutive years"
+    },
+    {
+      "value": "2",
+      "label": "Best Paper Awards in 2025 (TRB AEP35 & ACM SIGSPATIAL SpatialConnect)"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Machine Learning & GenAI",
+      "items": [
+        "PyTorch",
+        "HuggingFace",
+        "Transformers",
+        "LLMs",
+        "LoRA",
+        "RAG",
+        "DeepSpeed",
+        "TensorFlow",
+        "Keras",
+        "Reinforcement Learning (DDPG)",
+        "WandB"
+      ]
+    },
+    {
+      "group": "Optimization & Experimentation",
+      "items": [
+        "Bi-level / MPEC optimization",
+        "KKT sensitivity analysis",
+        "Particle Swarm Optimization",
+        "Randomized controlled trials",
+        "Causal inference & treatment heterogeneity",
+        "Discrete choice modeling"
+      ]
+    },
+    {
+      "group": "Programming",
+      "items": [
+        "Python",
+        "SQL",
+        "R",
+        "C++",
+        "Swift",
+        "Kotlin",
+        "TypeScript",
+        "Bash"
+      ]
+    },
+    {
+      "group": "Cloud, Apps & Tooling",
+      "items": [
+        "GCP",
+        "Firebase",
+        "Docker",
+        "Git",
+        "SwiftUI",
+        "Jetpack Compose",
+        "Streamlit",
+        "Matplotlib"
+      ]
+    },
+    {
+      "group": "Simulation & Sensing",
+      "items": [
+        "SUMO",
+        "CARLA",
+        "RTI driving simulator",
+        "GPS & geospatial data",
+        "EEG / ECG",
+        "Eye tracking"
+      ]
+    },
+    {
+      "group": "Communication & Leadership",
+      "items": [
+        "Grant writing ($300K secured)",
+        "Stakeholder & city partnerships",
+        "Conference speaking (TRB, INFORMS)",
+        "Mentored 64+ undergraduates"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D., Transportation Engineering",
+      "school": "Georgia Institute of Technology",
+      "when": "2019 — 2026",
+      "detail": "Minor in Technology Commercialization · Advisor: Dr. Srinivas Peeta",
+      "items": [
+        "Dissertation: *Behavioral Interventions for Sustainable Transportation*"
+      ]
+    },
+    {
+      "degree": "M.Sc., Transportation Engineering",
+      "school": "Georgia Institute of Technology",
+      "when": "2017 — 2019",
+      "detail": ""
+    },
+    {
+      "degree": "B.Sc., Civil and Environmental Engineering",
+      "school": "Indian Institute of Technology Madras",
+      "when": "2013 — 2017",
+      "detail": "Minor in Operations Research · Advisor: Dr. Karthik Srinivasan"
+    }
+  ],
+  "teaching": [
+    {
+      "when": "Fall 2020 — Spring 2026",
+      "title": "Designed and led the VIP ACT Lab research course (5 years)",
+      "items": [
+        "Mentored **64 undergraduate students across 84 semester enrollments**, primarily in mobile app development, testing, and deployment"
+      ]
+    },
+    {
+      "when": "Ongoing",
+      "title": "Research mentorship",
+      "items": [
+        "Mentored **11 undergraduate researchers** from Georgia Tech, the University of Georgia, and Georgia State University on behavioral interventions, optimization, and mobile app development"
+      ]
+    },
+    {
+      "when": "Fall 2021",
+      "title": "Teaching Assistant — CEE 8813 / ISYE 8803 Transportation Network Modeling and Analysis",
+      "items": []
+    },
+    {
+      "when": "Spring 2021",
+      "title": "Teaching Assistant — CEE 8813 Transportation Systems Analysis",
+      "items": []
+    }
+  ],
+  "contact": {
+    "text": "I'm finishing my Ph.D. in December 2026 and looking for roles where **machine learning, optimization, and experimentation** meet real users and real systems — in tech, mobility and autonomous vehicles, logistics, or research labs. I'd love to hear about what your team is building.",
+    "links": [
+      {
+        "label": "Email me",
+        "url": "mailto:viswasrirupa@gmail.com"
+      },
+      {
+        "label": "Download resume",
+        "url": "assets/Rupa_Anne_Resume.pdf"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/viswasrirupaanne"
+      }
+    ]
+  }
+}
